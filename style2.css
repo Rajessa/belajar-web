@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("library-background.jpg") center/cover fixed;
+}
+
+.library-container {
+  max-width: 800px;
+  margin: 50px auto;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.library-gif {
+  width: 40%; /* Sesuaikan dengan lebar kontainer */
+  border-radius: 15px 15px 0 0; /* Biar ujung atas gambar memanjang ke pojok */
+}
+
+.welcome-container {
+  text-align: center;
+}
+
+.welcome-container h1 {
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.welcome-container p {
+  margin-bottom: 30px;
+}
+
+.welcome-container a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: blue;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.welcome-container a:hover {
+  background-color: darkblue;
+}

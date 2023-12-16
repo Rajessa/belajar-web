@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Library</title>
+  </head>
+  <body>
+    <div class="library-container">
+      <img src="gif-library2.gif" alt="Library GIF" class="library-gif" />
+
+      <h2>Data Pinjam Buku Perpustakaan</h2>
+
+      <form>
+        <label for="kodeBuku">Kode Buku:</label>
+        <input type="text" id="kodeBuku" name="kodeBuku" required />
+
+        <label for="judul">Judul Buku:</label>
+        <input type="text" id="judul" name="judul" required />
+
+        <label for="pengarang">Pengarang:</label>
+        <input type="text" id="pengarang" name="pengarang" required />
+
+        <label for="penerbit">Penerbit:</label>
+        <input type="text" id="penerbit" name="penerbit" required />
+
+        <label for="tahunTerbit">Tahun Terbit:</label>
+        <input type="text" id="tahunTerbit" name="tahunTerbit" required />
+      </form>
+      <button type="button" onclick="addData()">Tambah Buku</button>
+
+      <table id="data-table">
+        <thead>
+          <tr>
+            <th>Kode Buku</th>
+            <th>Judul</th>
+            <th>Pengarang</th>
+            <th>Penerbit</th>
+            <th>Tahun Terbit</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Data akan ditambahkan secara dinamis melalui JavaScript -->
+        </tbody>
+      </table>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
